@@ -19,9 +19,79 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="coffeeshop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
+            <li><a href="" class="nav__link"></a>Book a table</li>
+            <li><a href="" class="nav__link"></a>Menu</li>
+            <li><a href="" class="nav__link"></a>Contacts</li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent"> Specialty coffee</span> in the
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <style>
+          body {
+            background-image: url(./images/background_header.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #ffffff;
+          }
+        </style>
+
+        <div class="class header__footer">
+          <div>
+            <p class="class header__paragraph">Hours:</p>
+            <p class="class header__paragraph">Monday-Friday (10:00-1900)</p>
+            <p class="class header__paragraph">Saturday-Sunday (11:00-18:00)</p>
+          </div>
+          <p class="class header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section id="recipes" class="recipes">
+          <h2 class="class recipes__title">Recipes</h2>
+          <p class="class recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/dNcp46j5IxI?si=TEXSgR511UxpveBj"
+                frameborder="0"
+                class="class recipes__iframe"
+              ></iframe>
+              <p class="class recipes__video-caption">
+                <span>Areopress Recipe</span> ~2 min
+              </p>
+            </div>
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=OX_F_N89rNb_5BWh"
+                frameborder="0"
+                class="class recipes__iframe"
+              ></iframe>
+              <p class="class recipes__video-caption">
+                <span>Ultimate French Press</span> ~3 min
+              </p>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
