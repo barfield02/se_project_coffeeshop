@@ -16,8 +16,8 @@
   position: absolute;
   top: 125px;
   right: 5px;
-  height: 646px;
-  width: 568px;
+  height: 568px;
+  width: 646px;
 }
 .header__title {
   max-width: 729px;
@@ -55,6 +55,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: flex end;
 }
 .header__paragraph {
   margin: 0;
