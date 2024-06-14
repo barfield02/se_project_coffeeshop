@@ -17,10 +17,15 @@
 .form__input {
   display: block;
   width: 100%;
-  padding: 0;
+  padding: 0 12px;
   box-sizing: border-box;
   border-radius: 4px;
   height: 60px;
+  margin-top: 8px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 .form__button {
   width: 100%;

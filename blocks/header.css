@@ -27,6 +27,7 @@
   letter-spacing: -0.6px;
   font-weight: 500;
   font-family: Inter, Arial, sans-serif;
+  z-index: 5;
 }
 .header__description {
   max-width: 683px;
