@@ -11,6 +11,7 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   position: relative;
+  box-sizing: border-box;
 }
 .header__image {
   position: absolute;
@@ -35,12 +36,6 @@
   line-height: 30px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
-}
-.header__background-image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #ffffff;
 }
 .header__span-accent {
   display: block;

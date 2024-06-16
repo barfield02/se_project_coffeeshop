@@ -15,18 +15,18 @@
   line-height: 52px;
   position: relative;
   z-index: 2;
-  top: 100px;
-  left: 80px;
+  margin: 100px 80px;
   color: #fff;
 }
 .about__content {
   max-width: 660px;
   margin: 119px 80px 173px 80px;
   color: #fff;
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
+
 .about__circle {
   border-radius: 50%;
   position: absolute;
@@ -38,18 +38,17 @@
   z-index: 1;
 }
 .about__circle_animation_blurred {
-  transition: 1.3s ease-in-out infinite;
-  animation: pulsate 4s ease infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }
 @keyframes pulsate {
   0% {
     opacity: 0;
   }
   50% {
-    transform: scale(1.5);
     opacity: 0.6;
   }
   100% {
+    transform: scale(1.5);
     opacity: 0;
   }
 }
