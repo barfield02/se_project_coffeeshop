@@ -15,7 +15,7 @@
   line-height: 52px;
   position: relative;
   z-index: 2;
-  margin: 100px 0px;
+  margin: 100px 0 0 80px;
   color: #fff;
 }
 .about__content {
