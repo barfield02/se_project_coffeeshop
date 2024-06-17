@@ -28,6 +28,7 @@
   letter-spacing: -0.6px;
   font-weight: 500;
   font-family: Inter, Arial, sans-serif;
+  position: relative;
   z-index: 5;
 }
 .header__description {
@@ -36,6 +37,8 @@
   line-height: 30px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
+  position: relative;
+  z-index: 6;
 }
 .header__span-accent {
   display: block;
@@ -51,7 +54,9 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  align-items: flex end;
+  align-items: end;
+  position: relative;
+  z-index: 7;
 }
 .header__paragraph {
   margin: 0;
