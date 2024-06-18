@@ -13,6 +13,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 100px 0 25px;
 }
 .recipes__subtitle {
   font-family: "Noto Serif", "Times New Roman", sans-serif;
@@ -29,6 +30,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: 0;
 }
 .recipes__video-caption {
   display: flex;
@@ -37,4 +39,5 @@
   font-size: 20px;
   line-height: 30px;
   font-family: Inter, Arial, Sans-serif;
+  margin: 24px 0;
 }
